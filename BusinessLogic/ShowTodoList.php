@@ -4,8 +4,16 @@
 * Menampilkan todo dalam list
 */
 
-public function showTodoList()
+function showTodoList()
 {
+  global $todos;
 
+  echo "TODOLIST" . PHP_EOL;
+
+  foreach ($todos as $number => $value):
+    echo "$number. $value" . PHP_EOL;
+  endforeach;
+
+echo "" . PHP_EOL;
 }
  ?>

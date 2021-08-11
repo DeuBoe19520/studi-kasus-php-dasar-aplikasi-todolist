@@ -1,3 +1,4 @@
-<<?php
+<?php
 
+static $todos = array();
  ?>
